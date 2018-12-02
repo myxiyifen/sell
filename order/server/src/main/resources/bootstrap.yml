@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: order
+  cloud:
+    config:
+      discovery:
+        enabled: true
+#        服务名
+        service-id: CONFIG
+      profile: dev
+  rabbitmq:
+    host: 192.168.110.110
+#    host: 39.106.128.50
+    port: 5672
+    username: guest
+    password: guest
+#  rabbitmq:
+#   host: 192.168.110.110
+
+
+
